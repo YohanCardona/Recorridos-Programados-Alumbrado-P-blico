@@ -1,5 +1,5 @@
 body {
-  font-family: "Arial Black", sans-serif; /* Cambio de la fuente */
+  font-family: "Arial Black", sans-serif;
   text-align: center;
   background-image: url("https://images.pexels.com/photos/1334605/pexels-photo-1334605.jpeg?auto=compress&cs=tinysrgb&w=400");
   background-size: cover;
@@ -7,7 +7,7 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
-  color: #f0f0f0; /* Color blanco más suave */
+  color: #f0f0f0;
 }
 
 .container {
@@ -19,9 +19,9 @@ body {
 }
 
 .titulo {
-  margin-bottom: 0px; /* Reducir el margen inferior */
-  margin-top: 300px; /* Aumentar el margen superior */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efecto de sombra */
+  margin-bottom: 0px;
+  margin-top: 300px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .contenido {
@@ -37,8 +37,8 @@ body {
 }
 
 .formulario p {
-  color: #f0f0f0; /* Color blanco más suave */
-  margin-bottom: 10px; /* Reducir el espacio hacia abajo */
+  color: #f0f0f0;
+  margin-bottom: 10px;
 }
 
 input[type="text"] {
@@ -47,7 +47,7 @@ input[type="text"] {
   padding: 6px;
   margin-bottom: 15px;
   box-sizing: border-box;
-  background-color: #e6e6e6; /* Gris claro */
+  background-color: #e6e6e6;
 }
 
 ul {
@@ -58,17 +58,17 @@ ul {
 
 .opcion {
   padding: 5px 10px;
-  background-color: #add8e6; /* Azul pastel */
+  background-color: #add8e6;
   border-radius: 10px;
-  margin-bottom: 5px; /* Reducir el espacio hacia abajo */
+  margin-bottom: 5px;
   cursor: pointer;
-  transition: transform 0.3s ease; /* Transición al pasar el cursor */
+  transition: transform 0.3s ease;
   color: black;
 }
 
 .opcion:hover {
-  background-color: #87ceeb; /* Azul pastel más oscuro */
-  transform: scale(1.05); /* Efecto de aumento al pasar el cursor */
+  background-color: #87ceeb;
+  transform: scale(1.05);
 }
 
 .opcion.seleccionada {
@@ -78,9 +78,9 @@ ul {
 
 .resultados {
   width: 50%;
-  margin-left: 0px; /* Agregar margen a la izquierda */
+  margin-left: 0px;
 }
 
 .texto {
-  color: #f0f0f0; /* Color blanco más suave */
+  color: #f0f0f0;
 }
